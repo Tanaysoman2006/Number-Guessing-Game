@@ -1,0 +1,10 @@
+import random
+num = random.randint(1, 100)
+
+while True:
+    g = int(input("Guess: "))
+    if g > num: print("High")
+    elif g < num: print("Low")
+    else:
+        print("Correct")
+        break
